@@ -11,7 +11,7 @@ interface AnimeStats {
         onHold: number;
         watching: number;
     }
-    
+    sus: string
 }
 
 export let get = async () => {
@@ -21,7 +21,7 @@ export let get = async () => {
         numberOfEpisodes: 0,
         averageScore: calculateAverage(),
         episodeStats: calculateEpisodeStats(),
-
+        sus: "yes"
     }
     return {
         body: stats
@@ -30,8 +30,8 @@ export let get = async () => {
 }
 
 let calculateAverage = (): number => {
-    let total = 0;
-    let counter = 0
+    let total: number = 0;
+    let counter: number = 0
     for(const anime of animes.anime) {
         total += anime.rating;
         counter++;

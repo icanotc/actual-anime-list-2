@@ -14,9 +14,10 @@
       let accData = await data.json()
       console.log(accData)
       return {
-         props: { data: accData}
+         props: { data: accData.dataArray}
       }
    }
+
 </script>
 {data}
 <div class="{$mode}">
@@ -35,6 +36,10 @@
          <!-- the list section -->
          <div class="bg-white dark:bg-gray-800 shadow-2xl lg:container mx-auto p-5 rounded-2xl">
             <div class="" id="gridWrapper"></div>
+
+            {#each data as bruh}
+               {bruh.title}
+            {/each}
          </div>
       </div>
    </div>

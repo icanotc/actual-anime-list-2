@@ -8,7 +8,9 @@ let url = 'https://api.jikan.moe/v3/'
 
 
 export let get = async () => {
+    console.log('get loading')
     await manageAnimes()
+    console.log('get loading finished, reading now')
     //so all the images & data are updated lmao
     let dataArray = []
     for (const anime of animes.anime) {

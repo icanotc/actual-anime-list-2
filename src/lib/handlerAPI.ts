@@ -40,7 +40,7 @@ export let fetchAPI = async (id: string, delay: number) => {
         status: json.status,
         start_date: json.start_date, 
     }
-
+    console.log(animeData)
     return animeData
 }
 
@@ -62,7 +62,7 @@ export let fetchImage = async (url: any, delay: number) => {
     //console.table(url)
     let data = await fetch(url.large);
     let image = (await data.blob()).stream();
-    console.log(image)
+    //console.log(image)
     return image
 }
 
