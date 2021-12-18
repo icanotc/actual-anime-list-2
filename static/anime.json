@@ -3,17 +3,20 @@
         {
             "linkMAL": "https://myanimelist.net/anime/30484/Steins_Gate_0",
             "rating": 100,
-            "status": "finished"
+            "status": "finished",
+            "progress": 24
         },
         {
             "linkMAL": "https://myanimelist.net/anime/40834/Ousama_Ranking",
             "rating": 100,
-            "status": "finished"
+            "status": "finished",
+            "progress": 24
         },
         {
             "linkMAL": "https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2",
             "rating": 100,
-            "status": "finished"
+            "status": "finished",
+            "progress": 24
         }
     ]
 }

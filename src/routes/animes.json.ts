@@ -1,10 +1,9 @@
 //this would pack the data and send an anime object to the frontend
 //this does not read or fetch the api
-import { rateLimit } from '../lib/utils'
+
 import animes from '../../static/anime.json'
 import {manageAnimes} from '../lib/manageData'
 import {promises as fs} from 'fs'
-let url = 'https://api.jikan.moe/v3/'
 
 
 export let get = async () => {
@@ -25,9 +24,5 @@ export let get = async () => {
         }
     }
 }
-
-
-
-
 
 console.log('bruh')

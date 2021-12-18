@@ -1,25 +1,27 @@
-<script>
+<script lang="ts">
    import { mode } from "$lib/darkModeState"
    import Navbar from "$lib/navbar.svelte";
    import Status from '$lib/status.svelte'
+   import type {Anime} from '$lib/handlerAPI'
+   import Card from "$lib/card.svelte";
+   export let data: Anime[];
 
-   export let data;
 </script>
-
 
 <script context="module">
    export const load = async ({fetch}) => {
       let data = await fetch('animes.json')
       //console.log(await data.json())
       let accData = await data.json()
-      console.log(accData)
+      console.log("at fetch")
+      console.log(accData.dataArray)
+
       return {
-         props: { data: accData.dataArray}
+         props: { data: accData.dataArray }
       }
    }
 
 </script>
-{data}
 <div class="{$mode}">
    <div id="background" class="bg-gray-200 dark:bg-gray-900 min-h-screen ">
       <Navbar></Navbar>
@@ -35,15 +37,15 @@
          </div>
          <!-- the list section -->
          <div class="bg-white dark:bg-gray-800 shadow-2xl lg:container mx-auto p-5 rounded-2xl">
-            <div class="" id="gridWrapper"></div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  "  id="gridWrapper">
+               {#each data as bruh}
+                  
+                  <Card image={bruh.thumbnail} name={bruh.title} nameJpn={bruh.titleJPN} score={bruh.scoreUser} status={bruh.status} type={bruh.type} episodes={bruh.episodes} episodesFinished={bruh.episodesFinished}>
 
-            {#each data as bruh}
-               {bruh.title}
-            {/each}
+                  </Card>
+               {/each}
+            </div>
          </div>
       </div>
    </div>
 </div>
- <!--[if lt IE 7]>
- <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
- <![endif]-->
