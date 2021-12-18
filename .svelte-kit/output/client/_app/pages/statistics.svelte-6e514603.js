@@ -1,1 +1,0 @@
-import{S as c,i as o,s as r,e as d,c as l,a as f,d as n,f as m,I as s}from"../chunks/vendor-c3cab601.js";function u(i){let e;return{c(){e=d("div")},l(t){e=l(t,"DIV",{});var a=f(e);a.forEach(n)},m(t,a){m(t,e,a)},p:s,i:s,o:s,d(t){t&&n(e)}}}class p extends c{constructor(e){super();o(this,e,null,u,r,{})}}export{p as default};
