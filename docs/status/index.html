@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="modulepreload" href="/internal/start-9ccc3437.js">
+		<link rel="modulepreload" href="/internal/chunks/vendor-70b7faf9.js">
+		<link rel="modulepreload" href="/internal/pages/__layout.svelte-01d37797.js">
+		<link rel="modulepreload" href="/internal/pages/status.svelte-6135e91f.js">
+		<link rel="stylesheet" href="/internal/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/internal/assets/pages/__layout.svelte-4a7507be.css">
+
+		<script type="module">
+			import { start } from "/internal/start-9ccc3437.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/internal/pages/__layout.svelte-01d37797.js"),
+						import("/internal/pages/status.svelte-6135e91f.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/status",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<head><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#BFDBFE">
+    <title>icanc&#39;s anime list</title>
+    
+    <meta name="description" content="icanc's anime list cuz he think all other ones sucks">
+    <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+
+
+
+
+
+<div class=""><div id="background" class="bg-gray-300 dark:bg-gray-900 min-h-screen "><div class="navbar antialiased font-sans"><div class="bg-blue-200 dark:bg-blue-600"><div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"><div class="flex items-center h-16"><a href="/" class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100 px-3 py-2 rounded-md text-lg font-medium">icanc&#39;s anime list
+			</a>
+			<div class="hidden sm:block sm:ml-4"><div class="flex space-x-3 "><a href="https://anime.vincentxie.net" class="bg-gray-400 text-gray-800 dark:bg-gray-900 dark:text-gray-400 transition hover:shadow-lg px-3 py-2 rounded-md text-sm font-medium">Anime List
+					</a>
+					<a href="https://vincentxie.net" class="bg-gray-300 text-gray-800 dark:bg-gray-700 dark:text-gray-400 transition hover:shadow-lg px-3 py-2 rounded-md text-sm font-medium">Home Page
+					</a>
+					<a href="https://icanc.space" class="bg-gray-300 text-gray-800 dark:bg-gray-700 dark:text-gray-400 transition hover:shadow-lg px-3 py-2 rounded-md text-sm font-medium">Blog
+					</a></div></div>
+			<div class="flex-1"></div>
+			<div class="relative"><div class="block bg-gray-300 dark:bg-gray-600 w-14 h-8 rounded-full"></div>
+    <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition transform-gpu"></div></div></div></div></div></div>
+       <div class="lg:pl-10 lg:pr-10 pt-10 pb-10">
+<div class="bg-white dark:bg-gray-800 lg:container shadow-2xl rounded-2xl mx-auto mb-10">
+    <div class="flex flex-row rounded-2xl w-full h-auto"><div class="flex-auto max-w-128"><div class="relative p-2 flex flex-wrap" id="statusSection"><div class="flex-initial flex-grow relative w-40 h-40"><canvas id="statusChart"></canvas></div>
+    <div class="p-2 flex flex-col flex-grow space-y-4 "><div class="flex flex-row h-10 w-40 bg-red-400 rounded-md"><div class="flex-grow p-2 text-gray-100">Finished</div>
+          <div class="flex flex-grow-0 w-10 rounded-md bg-red-500 justify-center items-center text-gray-100" id="statusFinished"></div></div>
+       <div class="flex flex-row h-10 w-40 bg-blue-400 rounded-md"><div class="flex-grow p-2 text-gray-100">Watching</div>
+          <div class="flex flex-grow-0 w-10 rounded-md bg-blue-500 justify-center items-center text-gray-100" id="statusWatching"></div></div>
+       <div class="flex flex-row h-10 w-40 bg-yellow-400 rounded-md"><div class="flex-grow p-2 text-gray-100">Planned</div>
+          <div class="flex flex-grow-0 w-10 rounded-md bg-yellow-500 justify-center items-center text-gray-100" id="statusPlanned"></div></div></div>
+    <div class="flex flex-col p-2 flex-grow space-y-4 w-60"><div class="flex flex-row h-16 w-60"><div class="flex-shrink-0 h-16 w-16 items-center justify-center"><div class="rounded-full border-4 border-green-400 h-16 w-16 items-center justify-center flex"><div class="dark:text-white" id="totalAnime"></div></div></div>
+          <div class="dark:text-white text-gray-800 text-xl flex items-center justify-center pl-4">Total Anime</div></div>
+       <div class="flex flex-row h-16 w-60"><div class="flex-shrink-0 h-16 w-16 items-center justify-center"><div class="rounded-full border-4 border-green-400 h-16 w-16 items-center justify-center flex"><div class="dark:text-white" id="totalAnimeWatched"></div></div></div>
+          <div class="dark:text-white text-gray-800 text-xl flex items-center justify-center pl-4">Total Anime Watched</div></div></div>
+    <div class="ml-4 p-2 relative h-40 w-64 font-medium text-gray-900 border-2 rounded-2xl bg-blue-200 dark:bg-blue-600 dark:text-gray-100">Welcome to icanc&#39;s anime list.
+       This is a badly made anime list with tailwind and html.
+       The scores are based on enjoyment.
+       MyAnimeList, is bad.
+    </div></div></div></div></div></div></div></div>
+
+
+
+			
+		</div>
+	</body>
+</html>
