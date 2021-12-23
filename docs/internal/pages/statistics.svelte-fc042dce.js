@@ -1,1 +1,0 @@
-import{S as o,i as r,s as c,e as d,c as l,a as f,d as n,f as m,G as s}from"../chunks/vendor-70b7faf9.js";function u(i){let e;return{c(){e=d("div")},l(t){e=l(t,"DIV",{});var a=f(e);a.forEach(n)},m(t,a){m(t,e,a)},p:s,i:s,o:s,d(t){t&&n(e)}}}class p extends o{constructor(e){super();r(this,e,null,u,c,{})}}export{p as default};
