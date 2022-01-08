@@ -21,8 +21,6 @@ export interface Anime {
     season: string, 
 }
 
-
-
 export let fetchAPI = async (id: string, userData: UserAnime, delay: number): Promise<Anime> => {
     let url = `https://api.jikan.moe/v3/anime/${id}`
     await rateLimit(delay)

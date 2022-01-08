@@ -3,7 +3,7 @@
 //this is calling the handlerAPI file
 
 import {promises as fs} from 'fs'
-import {existsSync, readdirSync} from 'fs'
+import {existsSync} from 'fs'
 import animes from '../../static/anime.json'
 import { fetchAPI, fetchImageData, fetchImage } from './handlerAPI'
 //check if the folder exists, if not create it
@@ -43,13 +43,14 @@ export const manageAnimes = async (): Promise<void> => {
 
 const checkJSONFile = async (animePath: SimpleAnimePath, UserData: UserAnime): Promise<void> => {
     //this one is a file ^
-    //console.log("bruh folder")
-    if(!(existsSync(animePath.animeFolder))){
+    console.log("checked folder")
+    if((!existsSync(animePath.animeFolder))){
+        console.log("created image folder for " + animePath.name)
         await fs.mkdir(animePath.animeFolder)
     }
     //console.log("bruh file")
     //here its gonna check if the json file is there and if not its gonna crreat a json file that has data for that anime
-    if(readdirSync(animePath.animeImage).length === 0 || refresh){
+    if(refresh || !(existsSync(animePath.animeData))){
         let data = await fetchAPI(animePath.id, UserData, 2000)
         
         try{

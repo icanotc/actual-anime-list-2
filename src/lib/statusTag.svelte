@@ -17,7 +17,7 @@
 </script>
 
 <div class='flex flex-row'>
-    <div class="rounded-full font-bold text-gray-500 px-2 {setStatusColor()}">
+    <div class="rounded-full font-bold text-gray-500 px-3 py-1 {setStatusColor()}">
         {status}
     </div>
 </div>

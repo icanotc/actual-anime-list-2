@@ -1,0 +1,466 @@
+{
+    "anime": [
+        {
+            "linkMAL": "https://myanimelist.net/anime/4786/Kodomo_no_Jikan_Recap",
+            "rating": "137",
+            "status": "watching",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/523/Tonari_no_Totoro",
+            "rating": "143",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/30484/Steins_Gate_0",
+            "rating": "160",
+            "status": "finished",
+            "progress": 23
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/42897/Horimiya",
+            "rating": "147",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/41812/Megami-ryou_no_Ryoubo-kun",
+            "rating": "121",
+            "status": "watching",
+            "progress": 10
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/42340/Meikyuu_Black_Company",
+            "rating": "150",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV",
+            "rating": "150",
+            "status": "finished",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/4224/Toradora",
+            "rating": "146",
+            "status": "watching",
+            "progress": 25
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/42627/Peach_Boy_Riverside",
+            "rating": "120",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/14813/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru",
+            "rating": "137",
+            "status": "watching",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/40904/Bokutachi_no_Remake",
+            "rating": "115",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/23289/Gekkan_Shoujo_Nozaki-kun",
+            "rating": "135",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/46471/Tantei_wa_Mou_Shindeiru",
+            "rating": "110",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/43969/Kanojo_mo_Kanojo",
+            "rating": "130",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/48753/Jahy-sama_wa_Kujikenai",
+            "rating": "138",
+            "status": "watching",
+            "progress": 20
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/39247/Kobayashi-san_Chi_no_Maid_Dragon_S",
+            "rating": "145",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/48252/Ore_Tsushima",
+            "rating": "140",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/46093/Shiroi_Suna_no_Aquatope",
+            "rating": "143",
+            "status": "watching",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/40620/Uramichi_Oniisan",
+            "rating": "131",
+            "status": "watching",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/48580/Vanitas_no_Karte",
+            "rating": "125",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/49858/Shinigami_Bocchan_to_Kuro_Maid_Zoku-hen",
+            "rating": "138",
+            "status": "watching",
+            "progress": 0
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/48849/Sonny_Boy",
+            "rating": "145",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/34498/Uchiage_Hanabi_Shita_kara_Miru_ka_Yoko_kara_Miru_ka",
+            "rating": "120",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/38826/Tenki_no_Ko",
+            "rating": "130",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo",
+            "rating": "139",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/38480/Toaru_Kagaku_no_Accelerator",
+            "rating": "130",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/11743/Toaru_Majutsu_no_Index_Movie__Endymion_no_Kiseki",
+            "rating": "135",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/36432/Toaru_Majutsu_no_Index_III",
+            "rating": "125",
+            "status": "finished",
+            "progress": 26
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/23233/Shinmai_Maou_no_Testament",
+            "rating": "100",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/30363/Shinmai_Maou_no_Testament_Burst",
+            "rating": "100",
+            "status": "finished",
+            "progress": 10
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/36432/Toaru_Majutsu_no_Index_III",
+            "rating": "133",
+            "status": "finished",
+            "progress": 26
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/4654/Toaru_Majutsu_no_Index",
+            "rating": "130",
+            "status": "finished",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/34281/High_School_DxD_Hero",
+            "rating": "135",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/32215/High_School_DxD_BorN__Yomigaeranai_Fushichou",
+            "rating": "120",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/15451/High_School_DxD_New",
+            "rating": "131",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/11617/High_School_DxD",
+            "rating": "130",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/3503/Kanokon",
+            "rating": "125",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/12679/Joshiraku",
+            "rating": "146",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/8861/Yosuga_no_Sora__In_Solitude_Where_We_Are_Least_Alone",
+            "rating": "126",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/38101/5-toubun_no_Hanayome",
+            "rating": "124",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/9253/Steins_Gate",
+            "rating": "160",
+            "status": "finished",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/34382/Citrus",
+            "rating": "-1",
+            "status": "planned",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken",
+            "rating": "132",
+            "status": "finished",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/18679/Kill_la_Kill",
+            "rating": "135",
+            "status": "watching",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon",
+            "rating": "149",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/14741/Chuunibyou_demo_Koi_ga_Shitai",
+            "rating": "133",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/41389/Tonikaku_Kawaii",
+            "rating": "132",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/30727/Saenai_Heroine_no_Sodatekata_♭",
+            "rating": "141",
+            "status": "finished",
+            "progress": 11
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/23277/Saenai_Heroine_no_Sodatekata",
+            "rating": "132",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/41433/Akudama_Drive",
+            "rating": "-1",
+            "status": "planned",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/37987/Violet_Evergarden_Movie",
+            "rating": "161",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso",
+            "rating": "-1",
+            "status": "planned",
+            "progress": 22
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/35330/Poputepipikku",
+            "rating": "116",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/43439/Shadows_House",
+            "rating": "132",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/40752/Bishounen_Tanteidan",
+            "rating": "104",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/46102/Odd_Taxi",
+            "rating": "156",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/42361/Ijiranaide_Nagatoro-san",
+            "rating": "100",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/41025/Fumetsu_no_Anata_e",
+            "rating": "134",
+            "status": "watching",
+            "progress": 20
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/40938/Hige_wo_Soru_Soshite_Joshikousei_wo_Hirou",
+            "rating": "113",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/15809/Hataraku_Maou-sama",
+            "rating": "138",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/46095/Vivy__Fluorite_Eyes_Song",
+            "rating": "169",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/41456/Sentouin_Hakenshimasu",
+            "rating": "118",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/35839/Sora_yori_mo_Tooi_Basho",
+            "rating": "169",
+            "status": "finished",
+            "progress": 13
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/39026/Dumbbell_Nan_Kilo_Moteru",
+            "rating": "136",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/38680/Fruits_Basket_1st_Season",
+            "rating": "-1",
+            "status": "planned",
+            "progress": 25
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/37105/Grand_Blue",
+            "rating": "132",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/36296/Hinamatsuri_TV",
+            "rating": "148",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/35851/Sayonara_no_Asa_ni_Yakusoku_no_Hana_wo_Kazarou",
+            "rating": "137",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/37804/Shirobako_Movie",
+            "rating": "131",
+            "status": "finished",
+            "progress": 1
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/25835/Shirobako",
+            "rating": "150",
+            "status": "finished",
+            "progress": 24
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/34134/One_Punch_Man_2nd_Season",
+            "rating": "95",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/34134/One_Punch_Man_2nd_Season",
+            "rating": "125",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/43299/Wonder_Egg_Priority",
+            "rating": "165",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/23623/Non_Non_Biyori_Repeat",
+            "rating": "140",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/37171/Asobi_Asobase",
+            "rating": "131",
+            "status": "finished",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/30307/Monster_Musume_no_Iru_Nichijou",
+            "rating": "139",
+            "status": "watching",
+            "progress": 12
+        },
+        {
+            "linkMAL": "https://myanimelist.net/anime/39790/Adachi_to_Shimamura",
+            "rating": "112",
+            "status": "watching",
+            "progress": 12
+        }
+    ]
+}

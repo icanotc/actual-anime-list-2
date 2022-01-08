@@ -22,7 +22,7 @@
 
 
 <div class="{$mode}">
-    <div id="background" class="bg-gray-300 dark:bg-gray-900 min-h-screen ">
+    <div id="background" class="bg-gray-100 dark:bg-gray-900 min-h-screen ">
        <Navbar></Navbar>
        <div class="lg:pl-10 lg:pr-10 pt-10 pb-10">
             <slot></slot>       
